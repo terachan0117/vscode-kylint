@@ -76,6 +76,10 @@ npm install -g @vscode/vsce
 vsce package
 ```
 
+## コントリビューションガイドライン
+
+コントリビューターの方は、[CONTRIBUTING.md](./docs/CONTRIBUTING.md)を確認してください。
+
 ## ライセンス
 
 [MITライセンス](./LICENSE)
