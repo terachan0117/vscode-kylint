@@ -57,7 +57,6 @@ function lintDocument(doc: vscode.TextDocument, collection: vscode.DiagnosticCol
         code
       };
 
-
       diagnostics.push(diagnostic);
     }
   }
