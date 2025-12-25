@@ -75,3 +75,7 @@ npm install -g @vscode/vsce
 ```bash
 vsce package
 ```
+
+## ライセンス
+
+[MITライセンス](./LICENSE)
