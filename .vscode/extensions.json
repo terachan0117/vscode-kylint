@@ -1,9 +1,8 @@
 {
-	// See http://go.microsoft.com/fwlink/?LinkId=827846
-	// for the documentation about the extensions.json format
-	"recommendations": [
+    // See http://go.microsoft.com/fwlink/?LinkId=827846
+    // for the documentation about the extensions.json format
+    "recommendations": [
         "editorconfig.editorconfig",
-		"dbaeumer.vscode-eslint",
-		"ms-vscode.extension-test-runner"
-	]
+        "dbaeumer.vscode-eslint"
+    ]
 }

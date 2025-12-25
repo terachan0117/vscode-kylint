@@ -19,7 +19,7 @@ export function loadRules(): Rule[] {
     const content = fs.readFileSync(path.join(rulesDir, file), 'utf-8');
     try {
       const parsed = JSON.parse(content);
-        rules = rules.concat(parsed.rules);
+      rules = rules.concat(parsed.rules);
     } catch (err) {
       console.error(`Failed to parse ${file}:`, err);
       vscode.window.showErrorMessage(`ルールファイル ${file} の読み込みに失敗しました。`);
