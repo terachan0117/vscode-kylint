@@ -18,14 +18,24 @@
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "prepare": "husky"
   },
   "devDependencies": {
-    "@types/vscode": "^1.107.0",
     "@types/node": "22.x",
-    "typescript-eslint": "^8.50.1",
+    "@types/vscode": "^1.107.0",
     "eslint": "^9.39.2",
-    "typescript": "^5.9.3"
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.50.1"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "repository": {
     "type": "git",
