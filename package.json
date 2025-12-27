@@ -22,6 +22,8 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
     "@types/node": "22.x",
     "@types/vscode": "^1.107.0",
     "eslint": "^9.39.2",
