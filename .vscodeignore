@@ -1,4 +1,5 @@
 .devcontainer/**
+.husky/**
 .vscode/**
 docs/**
 .vscode-test/**
