@@ -1,90 +1,90 @@
 {
-    "metadata": {
-        "id": "h22-naikaku-1",
-        "name": "平成22年内閣訓令第1号",
-        "version": "0.1.0",
-        "source": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/index.html"
+  "metadata": {
+    "id": "h22-naikaku-1",
+    "name": "平成22年内閣訓令第1号",
+    "version": "0.1.0",
+    "source": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/index.html"
+  },
+  "rules": [
+    {
+      "id": "1-2-a",
+      "message": "代名詞は，原則として，漢字で書く。",
+      "severity": "warning",
+      "pattern": "おれ|かれ|だれ|なに|ぼく|わたくし|わたし|われ",
+      "code": "平成22年内閣訓令第1号 別紙 1 (2) ア",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
     },
-    "rules": [
-        {
-            "id": "1-2-a",
-            "message": "代名詞は，原則として，漢字で書く。",
-            "severity": "warning",
-            "pattern": "おれ|かれ|だれ|なに|ぼく|わたくし|わたし|われ",
-            "code": "平成22年内閣訓令第1号 別紙 1 (2) ア",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        },
-        {
-            "id": "1-2-b",
-            "message": "副詞及び連体詞は，原則として，漢字で書く。",
-            "severity": "warning",
-            "pattern": "あまり|いたって|おおいに|おそらく|がいして|かならず|かろうじて|きわめて|ことに|さらに|じつに|すくなくとも|すこし|すでに|すべて|せつに|たいして|たえず|たがいに|ただちに|たとえば|ついで|つとめて|つねに|とくに|とつぜん|はじめて|はたして|はなはだ|ふたたび|まったく|むろん|もっとも|もっぱら|わずか|わりに|あくる|おおきな|きたる|さる|ちいさな|わが",
-            "code": "平成22年内閣訓令第1号 別紙 1 (2) イ",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        },
-        {
-            "id": "1-2-b-exception",
-            "message": "副詞は，原則として，仮名で書く。",
-            "severity": "warning",
-            "pattern": "可成り|不図|矢張り|余程",
-            "code": "平成22年内閣訓令第1号 別紙 1 (2) イ ただし書き",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        },
-        {
-            "id": "1-2-c",
-            "message": "接頭語は，その接頭語が付く語を漢字で書く場合は，原則として，漢字で書き，その接頭語が付く語を仮名で書く場合は，原則として，仮名で書く。",
-            "severity": "warning",
-            "pattern": "ご案内|ご挨拶|御もっとも",
-            "code": "平成22年内閣訓令第1号 別紙 1 (2) ウ",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        },
-        {
-            "id": "1-2-d",
-            "message": "接尾語は，原則として，仮名で書く。",
-            "severity": "warning",
-            "pattern": "惜し気もなく|私共|偉振る|弱身|少な目",
-            "code": "平成22年内閣訓令第1号 別紙 1 (2) エ",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        },
-        {
-            "id": "1-2-e",
-            "message": "接続詞は，原則として，仮名で書く。",
-            "severity": "warning",
-            "pattern": "追って|且つ|従って|但し|附いては|処が|処で|又(?!は)|故に",
-            "code": "平成22年内閣訓令第1号 別紙 1 (2) オ",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        },
-        {
-            "id": "1-2-e-exception",
-            "message": "接続詞の４語（及び 並びに 又は 若しくは）は，原則として，漢字で書く。",
-            "severity": "warning",
-            "pattern": "および|ならびに|または|もしくは",
-            "code": "平成22年内閣訓令第1号 別紙 1 (2) オ ただし書き",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        },
-        {
-            "id": "1-2-f",
-            "message": "助動詞及び助詞は，仮名で書く。",
-            "severity": "error",
-            "pattern": "無い|様だ|位|丈|程",
-            "code": "平成22年内閣訓令第1号 別紙 1 (2) カ",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        },
-        {
-            "id": "1-2-g",
-            "message": "原則として，仮名で書く。",
-            "severity": "warning",
-            "pattern": "有る|居る|事|出来る|通り|時|の所|共|無い|成る|他|物|故|訳|かも知れない|て上げる|て行く|て頂く|て置く|て下さい|て来る|て仕舞う|て見る|て良い|に過ぎない|に就いて",
-            "code": "平成22年内閣訓令第1号 別紙 1 (2) キ",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        },
-        {
-            "id": "2-1-exception",
-            "message": "複合の語のうち，活用のない語であって読み間違えるおそれのない語については，送り仮名を省くものとする。",
-            "severity": "error",
-            "pattern": "明け渡し|預かり金|言い渡し|入れ替え|植え付け|魚釣り用具|受け入れ|受け皿|受け持ち|受け渡し|渦巻き|打ち合わせ|打ち切り|内払い|移し替え|埋め立て|売り上げ|売り惜しみ|売り出し|売り場|売り払い|売り渡し|売り行き|縁組み|追い越し|置き場|贈り物|帯留め|折り詰め|買い上げ|買い入れ|買い受け|買い換え|買い占め|買い取り|買い戻し|買い物|書き換え|掛け金|貸し切り|貸し金|貸し越し|貸し倒れ|貸し出し|貸し付け|借り入れ|借り受け|借り換え|刈り取り|切り上げ|切り替え|切り下げ|切り捨て|切り取り|切り離し|組み合わせ|組み入れ|組み替え|組み立て|繰り上げ|繰り入れ|繰り替え|繰り越し|繰り下げ|繰り延べ|繰り戻し|差し押さえ|差し止め|差し引き|差し戻し|締め切り|据え置き|据え付け|立ち会い|立ち入り|立て替え|付け添い|積み卸し|積み替え|積み込み|積み出し|積み立て|積み付け|釣り合い|釣り鐘|釣り銭|釣り針|問い合わせ|取り上げ|取り扱い|取り卸し|取り替え|取り決め|取り崩し|取り消し|取り壊し|取り下げ|取り締まり|取り調べ|取り立て|取り次ぎ|取り付け|取り戻し|投げ売り|抜き取り|飲み物|乗り換え|乗り組み|話し合い|払い込み|払い下げ|払い出し|払い戻し|払い渡し|貼り付け|引き上げ|引き揚げ|引き受け|引き起こし|引き換え|引き込み|引き下げ|引き締め|引き継ぎ|引き取り|引き渡し|巻き付け|巻き取り|見合わせ|見積もり|見習い|申し合わせ|申し入れ|申し込み|申し立て|申し出|持ち家|持ち込み|持ち分|戻し入れ|焼き付け|雇い入れ|譲り受け|譲り渡し|呼び出し|読み替え|割り当て|割り増し|割り戻し",
-            "code": "平成22年内閣訓令第1号 別紙 2 (1) ただし書き",
-            "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
-        }
-    ]
+    {
+      "id": "1-2-b",
+      "message": "副詞及び連体詞は，原則として，漢字で書く。",
+      "severity": "warning",
+      "pattern": "あまり|いたって|おおいに|おそらく|がいして|かならず|かろうじて|きわめて|ことに|さらに|じつに|すくなくとも|すこし|すでに|すべて|せつに|たいして|たえず|たがいに|ただちに|たとえば|ついで|つとめて|つねに|とくに|とつぜん|はじめて|はたして|はなはだ|ふたたび|まったく|むろん|もっとも|もっぱら|わずか|わりに|あくる|おおきな|きたる|さる|ちいさな|わが",
+      "code": "平成22年内閣訓令第1号 別紙 1 (2) イ",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+    },
+    {
+      "id": "1-2-b-exception",
+      "message": "副詞は，原則として，仮名で書く。",
+      "severity": "warning",
+      "pattern": "可成り|不図|矢張り|余程",
+      "code": "平成22年内閣訓令第1号 別紙 1 (2) イ ただし書き",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+    },
+    {
+      "id": "1-2-c",
+      "message": "接頭語は，その接頭語が付く語を漢字で書く場合は，原則として，漢字で書き，その接頭語が付く語を仮名で書く場合は，原則として，仮名で書く。",
+      "severity": "warning",
+      "pattern": "ご案内|ご挨拶|御もっとも",
+      "code": "平成22年内閣訓令第1号 別紙 1 (2) ウ",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+    },
+    {
+      "id": "1-2-d",
+      "message": "接尾語は，原則として，仮名で書く。",
+      "severity": "warning",
+      "pattern": "惜し気もなく|私共|偉振る|弱身|少な目",
+      "code": "平成22年内閣訓令第1号 別紙 1 (2) エ",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+    },
+    {
+      "id": "1-2-e",
+      "message": "接続詞は，原則として，仮名で書く。",
+      "severity": "warning",
+      "pattern": "追って|且つ|従って|但し|附いては|処が|処で|又(?!は)|故に",
+      "code": "平成22年内閣訓令第1号 別紙 1 (2) オ",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+    },
+    {
+      "id": "1-2-e-exception",
+      "message": "接続詞の４語（及び 並びに 又は 若しくは）は，原則として，漢字で書く。",
+      "severity": "warning",
+      "pattern": "および|ならびに|または|もしくは",
+      "code": "平成22年内閣訓令第1号 別紙 1 (2) オ ただし書き",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+    },
+    {
+      "id": "1-2-f",
+      "message": "助動詞及び助詞は，仮名で書く。",
+      "severity": "error",
+      "pattern": "無い|様だ|位|丈|程",
+      "code": "平成22年内閣訓令第1号 別紙 1 (2) カ",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+    },
+    {
+      "id": "1-2-g",
+      "message": "原則として，仮名で書く。",
+      "severity": "warning",
+      "pattern": "有る|居る|事|出来る|通り|時|の所|共|無い|成る|他|物|故|訳|かも知れない|て上げる|て行く|て頂く|て置く|て下さい|て来る|て仕舞う|て見る|て良い|に過ぎない|に就いて",
+      "code": "平成22年内閣訓令第1号 別紙 1 (2) キ",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+    },
+    {
+      "id": "2-1-exception",
+      "message": "複合の語のうち，活用のない語であって読み間違えるおそれのない語については，送り仮名を省くものとする。",
+      "severity": "error",
+      "pattern": "明け渡し|預かり金|言い渡し|入れ替え|植え付け|魚釣り用具|受け入れ|受け皿|受け持ち|受け渡し|渦巻き|打ち合わせ|打ち切り|内払い|移し替え|埋め立て|売り上げ|売り惜しみ|売り出し|売り場|売り払い|売り渡し|売り行き|縁組み|追い越し|置き場|贈り物|帯留め|折り詰め|買い上げ|買い入れ|買い受け|買い換え|買い占め|買い取り|買い戻し|買い物|書き換え|掛け金|貸し切り|貸し金|貸し越し|貸し倒れ|貸し出し|貸し付け|借り入れ|借り受け|借り換え|刈り取り|切り上げ|切り替え|切り下げ|切り捨て|切り取り|切り離し|組み合わせ|組み入れ|組み替え|組み立て|繰り上げ|繰り入れ|繰り替え|繰り越し|繰り下げ|繰り延べ|繰り戻し|差し押さえ|差し止め|差し引き|差し戻し|締め切り|据え置き|据え付け|立ち会い|立ち入り|立て替え|付け添い|積み卸し|積み替え|積み込み|積み出し|積み立て|積み付け|釣り合い|釣り鐘|釣り銭|釣り針|問い合わせ|取り上げ|取り扱い|取り卸し|取り替え|取り決め|取り崩し|取り消し|取り壊し|取り下げ|取り締まり|取り調べ|取り立て|取り次ぎ|取り付け|取り戻し|投げ売り|抜き取り|飲み物|乗り換え|乗り組み|話し合い|払い込み|払い下げ|払い出し|払い戻し|払い渡し|貼り付け|引き上げ|引き揚げ|引き受け|引き起こし|引き換え|引き込み|引き下げ|引き締め|引き継ぎ|引き取り|引き渡し|巻き付け|巻き取り|見合わせ|見積もり|見習い|申し合わせ|申し入れ|申し込み|申し立て|申し出|持ち家|持ち込み|持ち分|戻し入れ|焼き付け|雇い入れ|譲り受け|譲り渡し|呼び出し|読み替え|割り当て|割り増し|割り戻し",
+      "code": "平成22年内閣訓令第1号 別紙 2 (1) ただし書き",
+      "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+    }
+  ]
 }
