@@ -12,12 +12,12 @@
 
 ```json
 {
-    "id": "1-2-e-exception",
-    "message": "接続詞の４語（及び 並びに 又は 若しくは）は，原則として，漢字で書く。",
-    "severity": "warning",
-    "pattern": "および|ならびに|または|もしくは",
-    "code": "平成22年内閣訓令第1号 別紙 1 (2) オ ただし書き",
-    "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
+  "id": "1-2-e-exception",
+  "message": "接続詞の４語（及び 並びに 又は 若しくは）は，原則として，漢字で書く。",
+  "severity": "warning",
+  "pattern": "および|ならびに|または|もしくは",
+  "code": "平成22年内閣訓令第1号 別紙 1 (2) オ ただし書き",
+  "codeDescription": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf"
 }
 ```
 
